@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPreparationToExcelWPF", "DataPreparationToExcelWPF.csproj", "{ADEE7627-09EF-4121-9D3E-5BFB5DC84490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEE7627-09EF-4121-9D3E-5BFB5DC84490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEE7627-09EF-4121-9D3E-5BFB5DC84490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEE7627-09EF-4121-9D3E-5BFB5DC84490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEE7627-09EF-4121-9D3E-5BFB5DC84490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41C245A5-CC21-4AB2-9CFE-47BF93C8FB28}
+	EndGlobalSection
+EndGlobal
