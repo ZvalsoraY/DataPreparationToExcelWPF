@@ -40,7 +40,10 @@ namespace DataPreparationToExcelWPF
             if (dlg.FileName == String.Empty)
                 return;
             string[] files_names = dlg.FileNames;
-            //listBoxFiles.Items.Clear();
+            listBoxFiles.Items.Clear();
+            foreach (string var in files_names) listBoxFiles.Items.Add(var);
+            ConverterToExcel.list.Clear();
+            ConverterToExcel.list.AddRange(files_names);
             //listBoxFiles.Items.Add("111");
             //listBoxFiles.ItemsSource = files_names;
 

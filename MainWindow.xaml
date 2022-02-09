@@ -8,8 +8,8 @@
         mc:Ignorable="d"
         Title="Excel Reporter" Height="550" Width="600" FontSize="20" FontWeight="Bold">
     <Grid>
-        <ListBox Name="listBoxFiles" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="380" Padding="285" />
-        <!-- <ListBox HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="400" Width="570" SelectionMode="Multiple"/>-->
+        <!-- <ListBox Name="listBoxFiles" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="380" Padding="285" />-->
+        <ListBox Name="listBoxFiles"  HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="400" Width="570" SelectionMode="Multiple"/>
         <Button Content="Select files" HorizontalAlignment="Left" Margin="50,410,0,0" VerticalAlignment="Top" Height="40" Width="200" Click="Button_Select" FontSize="30"/>
         <Button Content="Get Excel" HorizontalAlignment="Left" Margin="350,410,0,0" VerticalAlignment="Top" Height="40" Width="200" Click="Button_Get" FontSize="30"/>
         <Label Content="Model Units" HorizontalAlignment="Left" Margin="220,460,0,0" VerticalAlignment="Top" Height="40" Width="150"/>
